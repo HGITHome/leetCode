@@ -42,6 +42,7 @@ public class leetCode11 {
                 return Integer.valueOf(number.toString());
             } catch (Exception e){
                 String first = number.toString().substring(0,1);
+                //判断是否是负数
                 if("-".equals(first)){
                     return -2147483648;
                 } else {
