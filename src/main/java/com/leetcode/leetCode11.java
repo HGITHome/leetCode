@@ -1,3 +1,5 @@
+package java.com.leetcode;
+
 /**
  * @author: create by xiake
  * @version: v1.0

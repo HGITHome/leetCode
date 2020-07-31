@@ -1,3 +1,5 @@
+package java.com.leetcode;
+
 public class LeetCode14 {
     /**
      * 该算法，判断字符串s1通过字符串s循环位移，是否可得到

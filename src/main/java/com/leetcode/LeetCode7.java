@@ -1,3 +1,5 @@
+package java.com.leetcode;
+
 import javax.sound.midi.Soundbank;
 
 /**

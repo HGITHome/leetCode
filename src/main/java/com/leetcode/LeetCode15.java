@@ -1,3 +1,5 @@
+package java.com.leetcode;
+
 import com.alibaba.fastjson.JSON;
 
 import java.lang.reflect.Array;
