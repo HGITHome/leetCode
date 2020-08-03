@@ -1,6 +1,7 @@
 package com.leetcode;
 
 
+import java.util.stream.IntStream;
 
 /**
  * @author Tom
