@@ -38,7 +38,7 @@ public class LeetCode18 {
             for (int i = num1.length() - 1 ; i >= 0 ; i -- ){
                 Boolean b = true;
                 if (j >= 0) {
-                    Integer r = Integer.valueOf(String.valueOf(num1.charAt(i))) + Integer.valueOf(String.valueOf(num2.charAt(j))) + temp;
+                    Integer r = Integer.parseInt(String.valueOf(num1.charAt(i))) + Integer.valueOf(String.valueOf(num2.charAt(j))) + temp;
                     // 获取和的个位数
                     result.append((r % 10));
                     // 获取进位数
