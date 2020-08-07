@@ -1,4 +1,4 @@
-package java.com.leetcode;
+package com.leetcode;
 
 /**
  * @author: create by xiake
@@ -8,7 +8,7 @@ package java.com.leetcode;
  *
  * 字符串转换整数 (atoi):https://leetcode-cn.com/problems/string-to-integer-atoi/
  **/
-public class leetCode11 {
+public class LeetCode11 {
     public static void main(String[] args) {
       int total = myAtoi("45");
     }

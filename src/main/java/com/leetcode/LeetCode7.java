@@ -1,6 +1,4 @@
-package java.com.leetcode;
-
-import javax.sound.midi.Soundbank;
+package com.leetcode;
 
 /**
  * @author: create by xiake

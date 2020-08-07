@@ -1,4 +1,4 @@
-package java.com.leetcode;
+package com.leetcode;
 
 import javax.swing.*;
 import java.util.ArrayList;

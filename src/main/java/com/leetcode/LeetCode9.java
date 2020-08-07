@@ -1,4 +1,4 @@
-package java.com.leetcode;
+package com.leetcode;
 
 /**
  * ClassName: LeetCode8

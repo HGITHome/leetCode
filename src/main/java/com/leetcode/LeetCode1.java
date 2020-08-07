@@ -1,4 +1,4 @@
-package java.com.leetcode;
+package com.leetcode;
 
 import javax.sound.midi.Soundbank;
 import java.util.ArrayList;

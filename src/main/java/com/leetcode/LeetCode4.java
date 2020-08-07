@@ -1,4 +1,4 @@
-package java.com.leetcode; /**
+package com.leetcode; /**
  * @author: create by xiake
  * @version: v1.0
  * @description: PACKAGE_NAME
