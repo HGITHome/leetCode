@@ -53,14 +53,14 @@ public class LeetCode27 {
         ListNode prev = prehead;
         while (l1 != null && l2 != null) {
             if (l1.val <= l2.val) {
-                // 将当前的节点的next新的节点
+                // 将当前的节点的next赋予新的节点
                 prev.next = l1;
                 l1 = l1.next;
             } else {
                 prev.next = l2;
                 l2 = l2.next;
             }
-            // 将next的节点赋值为当前节点
+            // 将next的节点赋值为当前节点，可以理解为中间节点
             prev = prev.next;
         }
 
