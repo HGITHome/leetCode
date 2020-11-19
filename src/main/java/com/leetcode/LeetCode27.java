@@ -49,15 +49,18 @@ public class LeetCode27 {
 
         ListNode prehead = new ListNode(-1);
 
+        // 可以理解为某个节点
         ListNode prev = prehead;
         while (l1 != null && l2 != null) {
             if (l1.val <= l2.val) {
+                // 将当前的节点的next新的节点
                 prev.next = l1;
                 l1 = l1.next;
             } else {
                 prev.next = l2;
                 l2 = l2.next;
             }
+            // 将next的节点赋值为当前节点
             prev = prev.next;
         }
 
